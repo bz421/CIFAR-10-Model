@@ -1,0 +1,26 @@
+Total accuracy: 95.31%
+Total misclassifications: 469 out of 10000
+
+Class-wise misclassifications:
+plane: 96.20% correct (962 out of 1000)
+car: 97.70% correct (977 out of 1000)
+bird: 94.20% correct (942 out of 1000)
+cat: 90.20% correct (902 out of 1000)
+deer: 96.60% correct (966 out of 1000)
+dog: 90.80% correct (908 out of 1000)
+frog: 97.30% correct (973 out of 1000)
+horse: 96.60% correct (966 out of 1000)
+ship: 96.90% correct (969 out of 1000)
+truck: 96.60% correct (966 out of 1000)
+
+Top confusion pairs (true → predicted):
+cat → dog: 100 times
+dog → cat: 94 times
+truck → car: 36 times
+car → truck: 32 times
+cat → bird: 32 times
+dog → bird: 32 times
+ship → plane: 30 times
+dog → deer: 30 times
+bird → deer: 28 times
+bird → frog: 26 times
